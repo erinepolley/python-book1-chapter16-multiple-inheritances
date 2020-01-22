@@ -1,14 +1,8 @@
-from arrangements import Arrangement
+from . import Arrangement
 
 class MothersDay(Arrangement):
     def __init__(self):
-        super().__init__()
-        self.stem_size_inches: 4
-        refrigerated: False
-
-
-
-
+        super().__init__(4, False)
 
 
     # Override the `enhance` method to ensure only
